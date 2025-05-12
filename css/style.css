@@ -69,7 +69,7 @@ ol, ul{
     justify-content: flex-end;
   
 }
-.top-bar-rightul li:last-child a{
+.top-bar-right ul li:last-child a{
     margin-right: 0;
 }
 /*nav_part start*/
@@ -102,7 +102,7 @@ ol, ul{
     color: #0872b9;
 }
 .nav ul li:last-child a{
-   padding-right: 0;
+  margin-right: 0;
 }
 .nav ul li{
     float: left;
@@ -113,15 +113,15 @@ ol, ul{
 
 /*hero_part start*/
 .hero_part{
-    background: url(../image/Image.png);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/Image.png);
     background-position:100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
- 
+ padding: 85px 0;
 }
 .hero_overlay{
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 85px 0;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* padding: 85px 0; */
 }
 .banner_content{
     width: 440px;
@@ -312,7 +312,7 @@ ol, ul{
     background: rgba(0, 0, 0, 0.6);
     transform: scaleX(0);
     transform-origin: left right; 
-    transition: transform 0.4s ease;
+    transition:  0.4s ease;
  
 }
 .port_item_img:hover .right,
